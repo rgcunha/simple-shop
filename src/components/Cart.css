@@ -1,0 +1,18 @@
+.cart {
+  position: relative;
+}
+
+.cart__counter {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 11px;
+  position: absolute;
+  padding: 2px 6px;
+  top: -15px;
+  right: 5px;
+}
+
+.cart-product:last-child {
+  border: none;
+}

@@ -1,0 +1,28 @@
+.cart-product {
+  display: block;
+  font-size: 12px;
+  border-bottom: 1px solid #edeff1;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.cart-product-overview {
+  display: block;
+  min-height: 40px;
+}
+
+.cart-product-overview__image {
+  width: 10%;
+  height: 10%;
+  float: left;
+  margin-right: 15px;
+}
+
+.cart-product-overview__name {
+  width: 90%;
+}
+
+.cart-product__action {
+  float: right;
+  cursor: pointer;
+}

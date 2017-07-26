@@ -1,0 +1,18 @@
+.price {
+  color: #6cb1e8;
+}
+
+.price::after {
+  display: inline;
+  content: "\20AC";
+}
+
+.price--new {
+  color: red;
+  padding-left: 5px;
+}
+
+.price--old {
+  color: grey;
+  text-decoration: line-through;
+}
