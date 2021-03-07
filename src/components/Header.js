@@ -12,9 +12,8 @@ const App = () => (
     <div className="header-nav">
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">Products</Link></li>
           <li><Link to="/about-us">About</Link></li>
-          <li><Link to="/shop">Shop</Link></li>
         </ul>
       </nav>
     </div>
