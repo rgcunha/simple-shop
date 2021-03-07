@@ -3,20 +3,29 @@ import PropTypes from 'prop-types'
 import Product from '../containers/catalog/product'
 import './Catalog.css'
 
-export const Products = (props) => (
-  <div className='catalog'>
-    {listProducts(props.catalog)}
-  </div>
-)
+class Catalog extends React.Component {
+  componentDidMount() {
+    this.props.fetchCatalog();
+  }
 
-function listProducts (products) {
-  return products.map((product) =>
-    <Product key={product.name} product={product} buttonText="Add to cart" />
-  )
+  listProducts () {
+    return this.props.catalog.map((product) =>
+      <Product key={product.name} product={product} buttonText="Add to cart" />
+    )
+  }
+
+  render() {
+    return (
+      <div className='catalog'>
+        {this.listProducts()}
+      </div>
+    );
+  }
 }
 
-Products.propTypes = {
-  catalog      : PropTypes.array.isRequired
+Catalog.propTypes = {
+  catalog     : PropTypes.array.isRequired,
+  fetchCatalog: PropTypes.func.isRequired,
 }
 
-export default Products
+export default Catalog;

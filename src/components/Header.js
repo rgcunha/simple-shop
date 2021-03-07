@@ -12,7 +12,7 @@ const App = () => (
     <div className="header-nav">
       <nav>
         <ul>
-          <li><Link to="/">Products</Link></li>
+          <li><Link to="/">Catalog</Link></li>
           <li><Link to="/about-us">About</Link></li>
         </ul>
       </nav>
