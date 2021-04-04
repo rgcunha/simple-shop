@@ -6,7 +6,7 @@ import './Header.css'
 const App = () => (
   <header>
     <div className="header-logo">
-      <Link to="/"><img src="img/vimcar-logo.svg" alt="vimcar"/></Link>
+      <Link to="/"><img src="img/placeholder.com-logo4.png" alt="company-logo"/></Link>
       <Cart />
     </div>
     <div className="header-nav">
