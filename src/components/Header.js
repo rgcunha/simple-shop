@@ -14,6 +14,7 @@ const App = () => (
         <ul>
           <li><Link to="/">Catalog</Link></li>
           <li><Link to="/about-us">About</Link></li>
+          <li><Link to="/terms">Terms</Link></li>
         </ul>
       </nav>
     </div>
