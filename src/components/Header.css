@@ -3,10 +3,6 @@
   text-align: center;
 }
 
-.header-logo a img {
-  height: 25px;
-}
-
 .header-logo .cart {
   position: absolute;
   right: 30px;
